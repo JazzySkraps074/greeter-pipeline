@@ -1,0 +1,9 @@
+// Week 9 lab starter — Build Your First Pipeline — SDEV 3320
+function greet(name) {
+  if (!name) {
+    return "Hello, stranger!";
+  }
+  return `Hello, ${name}!`;
+}
+
+module.exports = { greet };
